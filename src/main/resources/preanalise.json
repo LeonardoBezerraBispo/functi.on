@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "id": "http://example.com/example.json",
+    "type": "object",
+    "required": [
+        "nome",
+        "idade",
+        "altura"
+    ],
+    "properties": {
+        "nome": {
+            "id": "#/properties/nome",
+            "type": "string"
+        },
+        "idade": {
+            "id": "#/properties/idade",
+            "type": "number"
+        },
+        "altura": {
+            "id": "#/properties/altura",
+            "type": "number"
+        }
+    }
+}
