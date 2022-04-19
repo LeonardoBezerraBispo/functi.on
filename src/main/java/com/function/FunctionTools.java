@@ -74,3 +74,4 @@ public class FunctionTools {
             context.getLogger().info("[FUNCTION(" + context.getFunctionName().toUpperCase() + ")] - " + arrayText.get(i));
         }
     }
+}
